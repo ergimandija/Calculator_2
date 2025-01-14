@@ -8,4 +8,4 @@ A simple and user-friendly calculator built to perform basic arithmetic operatio
 - Responsive design for desktop and mobile.
 - Error handling for invalid inputs (e.g., division by zero).
 
-[![Java CI](https://github.com/perdix/Testing/actions/workflows/ci.yml/badge.svg)](https://github.com/perdix/Testing/actions/workflows/ci.yml)
+[![Java CI](https://github.com/perdix/Testing/actions/workflows/ci.yml/badge.svg)](https://github.com/ergimandija/Calculator_2/tree/master/.github/workflows/main.yml)
