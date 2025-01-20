@@ -27,4 +27,8 @@ public class Calculator {
         return Math.sqrt(a);
     }
 
+    public int quadrierung(int a){
+        return (int)Math.pow(a, 2);
+    }
+
 }

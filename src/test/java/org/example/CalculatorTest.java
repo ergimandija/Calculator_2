@@ -35,4 +35,9 @@ class CalculatorTest {
     void quadratwurzel() {
         assertEquals(2, calculator.quadratwurzel(4));
     }
+
+    @Test
+    void quadrierung() {
+        assertEquals(4, calculator.quadrierung(2));
+    }
 }
