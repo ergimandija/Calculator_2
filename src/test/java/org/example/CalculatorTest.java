@@ -30,4 +30,9 @@ class CalculatorTest {
         assertEquals(8, calculator.multiplication(2,4));
         assertNotEquals(10, calculator.multiplication(2,4));
     }
+
+    @Test
+    void quadratwurzel() {
+        assertEquals(2, calculator.quadratwurzel(4));
+    }
 }

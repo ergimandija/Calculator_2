@@ -23,4 +23,8 @@ public class Calculator {
 
     }
 
+    public double quadratwurzel(int a){
+        return Math.sqrt(a);
+    }
+
 }
