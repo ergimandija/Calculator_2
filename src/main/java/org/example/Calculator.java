@@ -23,4 +23,12 @@ public class Calculator {
 
     }
 
+    public double sin(double a){
+        return Math.sin(a);
+    }
+
+    public double cos(double a){
+        return Math.cos(a);
+    }
+
 }

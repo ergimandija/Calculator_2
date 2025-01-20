@@ -30,4 +30,13 @@ class CalculatorTest {
         assertEquals(8, calculator.multiplication(2,4));
         assertNotEquals(10, calculator.multiplication(2,4));
     }
+
+    @Test
+    void sin(){
+        assertEquals(Math.sin(Math.PI/2),calculator.sin(Math.PI/2));
+        assertNotEquals(Math.sin(Math.PI/2),calculator.sin(Math.PI));
+    }
+    void cos(){
+        assertEquals(Math.cos(Math.PI/2),calculator.cos(Math.PI/2));
+    }
 }
