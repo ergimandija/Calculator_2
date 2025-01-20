@@ -23,12 +23,13 @@ public class Calculator {
 
     }
 
-    public double quadratwurzel(int a){
-        return Math.sqrt(a);
+
+    public double sin(double a){
+        return Math.sin(a);
     }
 
-    public int quadrierung(int a){
-        return (int)Math.pow(a, 2);
+    public double cos(double a){
+        return Math.cos(a);
     }
 
 }

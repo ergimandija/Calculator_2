@@ -40,4 +40,13 @@ class CalculatorTest {
     void quadrierung() {
         assertEquals(4, calculator.quadrierung(2));
     }
+
+    @Test
+    void sin(){
+        assertEquals(Math.sin(Math.PI/2),calculator.sin(Math.PI/2));
+        assertNotEquals(Math.sin(Math.PI/2),calculator.sin(Math.PI));
+    }
+    void cos(){
+        assertEquals(Math.cos(Math.PI/2),calculator.cos(Math.PI/2));
+    }
 }
